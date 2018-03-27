@@ -1,0 +1,25 @@
+.magneto-block { background: #f0f0f0; padding:20px; margin:20px; }
+.side-slant-cta { width:100%; overflow:hidden; }
+.side-slant-cta .side-slant-img { background: url('/images/side-cta-img.jpg'); height:250px; z-index: -1; }
+.side-slant-cta .side-slant-box { background: #0d3359; padding:20px; text-align:center; position: relative;  }
+.side-slant-cta .side-slant-box-slanted { background: #0d3359; transform:rotate(-30deg); top:-50%; left:-50%; width:140%; z-index: -10; height:100%; position: relative; }
+.side-slant-cta .side-slant-box p, .side-slant-cta .side-slant-box p strong { font-size: 0.8rem; color:#fff; text-align:left; }
+.side-slant-cta .side-slant-box a button.button {  margin:auto; }
+
+/* Clipping Mask for Sidebar */
+.side-slant-cta { background-color: #0d3359; }
+.side-slant-cta .side-slant-img {
+    clip-path: polygon(100% 0, 100% 40%, 0 100%, 0 0); 
+    -webkit-clip-path: polygon(100% 0, 100% 40%, 0 100%, 0 0); 
+}
+
+
+/* BEGIN - New Magneto Page */
+
+#cta2-section{ margin-top: 2.5%; margin-bottom: 5%; padding: 0;}
+.cta2-background {background-image: url(/images/content/cta/qaa-magneto-cta2.jpg); background-position: center center; background-repeat:no-repeat; background-size: cover; max-height: 300px; } 
+.cta2-content { margin-left: 60%; padding: 2.5%; }
+.cta2-content h3 { color: #fff; font-weight: 100; margin-bottom: 0; }
+.cta2-content button { margin-top: 5%; width: 55%; }
+
+/* END - New Magneto Page */
